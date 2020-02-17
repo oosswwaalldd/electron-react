@@ -1,12 +1,12 @@
 {
-  "name": "electron-react",
+  "name": "qr-printer-client",
   "version": "0.1.0",
   "private": true,
   "main": "public/electron.js",
-  "author": "Oswald",
+  "author": "Standard Computing",
   "homepage": "./",
   "build": {
-    "appId": "com.react.electron",
+    "appId": "com.sc.qr-printer",
     "files": [
       "build/**/*",
       "node_modules/**/*"
@@ -58,7 +58,18 @@
     "concurrently": "^5.0.2",
     "electron": "^7.1.10",
     "electron-builder": "^22.2.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-json": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^2.4.0",
     "node-sass": "^4.13.1",
+    "prettier": "^1.19.1",
+    "stylelint": "^13.2.0",
+    "stylelint-config-standard": "^20.0.0",
     "wait-on": "^4.0.0"
   }
 }
